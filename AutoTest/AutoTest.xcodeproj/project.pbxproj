@@ -111,7 +111,7 @@
 					E0535A3D1DEBDFD200007E5B = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 9YN3CUX3CA;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -271,16 +271,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Liu Juan (QUPY9Q2YGQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Liu Juan (QUPY9Q2YGQ)";
 				DEVELOPMENT_TEAM = 9YN3CUX3CA;
 				INFOPLIST_FILE = AutoTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = szwl.recycle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "e5ee9bb6-3b67-4b35-9f3d-22b651be8097";
+				PROVISIONING_PROFILE_SPECIFIER = test;
 			};
 			name = Debug;
 		};
@@ -288,16 +288,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Liu Juan (QUPY9Q2YGQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Liu Juan (QUPY9Q2YGQ)";
 				DEVELOPMENT_TEAM = 9YN3CUX3CA;
 				INFOPLIST_FILE = AutoTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = szwl.recycle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "e5ee9bb6-3b67-4b35-9f3d-22b651be8097";
+				PROVISIONING_PROFILE_SPECIFIER = test;
 			};
 			name = Release;
 		};
